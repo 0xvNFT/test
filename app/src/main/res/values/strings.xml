@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">TK88COLOR</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <string name="title_content_base">Thông qua việc tô màu các hình vẽ và tranh vẽ ngẫu nhiên, người dùng TK88 trên điện thoại thông minh trò chơi sáng tạo và hấp dẫn có thể thể hiện tài năng nghệ thuật và sự khéo léo của mình. Người dùng yêu thích quy trình tô màu đã biến TK88 trở thành một trong những công cụ yêu thích của họ nhờ thiết kế thân thiện với người dùng và nhiều khả năng.
+    </string>
+    <string name="toast_external_storage_unavailable">External storage unavailable. Cannot store or retrieve pictures.</string>
+    <string name="content_description_page_image">Preview of a page to be colored</string>
+    <string name="content_description_book_image">Preview of a book to be colored</string>
+    <string name="coloring_end_dialog_title">Finish?</string>
+    <string name="coloring_end_dialog_positive">Save and exit</string>
+    <string name="coloring_end_dialog_neutral">Just Exit</string>
+    <string name="content_description_back_button">Goes back</string>
+    <string name="content_description_image_gallery">Shows the image gallery</string>
+    <string name="content_description_share_button">Shares the selected image</string>
+    <string name="content_description_delete_button">Deletes the selected image</string>
+    <string name="content_description_about_button">Shows information about the app</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="library_root_folder" translatable="false">library</string>
+    <string name="library_file" translatable="false">library.json</string>
+</resources>

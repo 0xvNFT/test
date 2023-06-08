@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_splash">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/imageTop"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="70dp"
+        android:src="@drawable/logo"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imageTop"
+        android:layout_marginTop="40dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/banner" />
+
+        <TextView
+            android:layout_width="290dp"
+            android:layout_height="85dp"
+            android:id="@+id/textHome"
+            android:background="@drawable/bg_button_1"
+            android:layout_gravity="center"
+            android:layout_marginTop="-140dp"
+            android:gravity="center"
+            android:text="TRANG CHỦ"
+            android:paddingBottom="5dp"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/textChange"
+            android:layout_width="220dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="-40dp"
+            android:background="@drawable/bg_button"
+            android:gravity="center"
+            android:paddingBottom="5dp"
+            android:text="ĐỔI LINK"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="220dp"
+            android:layout_height="100dp"
+            android:id="@+id/textContact"
+            android:background="@drawable/bg_button"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:gravity="center"
+            android:text="HỖ TRỢ"
+            android:paddingBottom="5dp"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

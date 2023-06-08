@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_splash">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="560dp"
+        android:paddingBottom="230dp"
+        android:src="@drawable/light"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/imageHeader"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_marginTop="188dp"
+        android:src="@drawable/gift"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <!--        <androidx.appcompat.widget.AppCompatTextView-->
+        <!--            android:id="@+id/textHome"-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_gravity="center"-->
+        <!--            android:layout_marginTop="30dp"-->
+        <!--            android:layout_marginStart="10dp"-->
+        <!--            android:layout_marginEnd="10dp"-->
+        <!--            android:gravity="center"-->
+        <!--            android:text="Nhập số điện thoại để nhận nhiều ưu đãi"-->
+        <!--            android:textColor="@color/color_header_phone"-->
+        <!--            android:textSize="17sp"-->
+        <!--            android:textStyle="bold" />-->
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/inputText"
+            android:layout_width="330dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/bg_layout_white"
+            android:gravity="center"
+            android:hint="Nhập số điện thoại để nhận quà"
+            android:inputType="phone"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/imageHeader"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnOk"
+            android:layout_width="250dp"
+            android:layout_height="95dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="90dp"
+            android:background="@drawable/bg_button_1"
+            android:gravity="center"
+            android:onClick="xac_nhan"
+            android:paddingBottom="5dp"
+            android:text="Nhận quà"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </FrameLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
